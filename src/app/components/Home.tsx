@@ -5,7 +5,7 @@ export default function Home() {
     <section id="home" className="py-10">
       <div className="text-center">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WWxszqUDsiFEvKsT0X3zdYTf9e6ouN.png"
+          src="/src/public/assets/icons/image.png"
           alt="Saulo Costa"
           width={400}
           height={400}

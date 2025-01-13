@@ -6,7 +6,7 @@ export default function Header() {
     <header className="lg:fixed lg:w-1/3 lg:h-screen p-4 border border-primary rounded-lg text-center">
       <div>
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WWxszqUDsiFEvKsT0X3zdYTf9e6ouN.png"
+          src="/src/public/assets/icons/image.png"
           alt="Portfolio Logo"
           width={100}
           height={100}
