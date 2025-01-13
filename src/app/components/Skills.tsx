@@ -4,23 +4,23 @@ export default function Skills() {
   const skills = [
     {
       name: "JavaScript",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/js-OSb2JySUQ8jmQnWlPVckNajcRsptdY.png",
+      src: "/src/public/assets/icons/js.png",
     },
     {
       name: "HTML5",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/html-GSagSUHBUC7351jETiOepuiNyxsnq8.png",
+      src: "/src/public/assets/icons/html.png",
     },
     {
       name: "CSS3",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/css-RZH4JjLRNNxcbmZpQPQpMbBxEveRgH.png",
+      src: "/src/public/assets/icons/css.png",
     },
     {
       name: "React",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/react-Gh8sF9r3godRNbonixjP5cU2j0MruS.png",
+      src: "/src/public/assets/icons/react.png",
     },
     {
       name: "Node.js",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/node-PNyvtKdT1gDj86r6CYLwMisYB4UVxm.png",
+      src: "/src/public/assets/icons/node.png",
     },
   ];
 

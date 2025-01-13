@@ -6,7 +6,7 @@ export default function AboutMe() {
       <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
       <div className="text-center mb-8">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me-F5sfXpEno4Ol0e9MIO56TsV1GbhCPv.jpeg"
+          src="/src/public/assets/images/me.jpeg"
           alt="Saulo Costa - Full Stack Developer"
           width={400}
           height={400}
