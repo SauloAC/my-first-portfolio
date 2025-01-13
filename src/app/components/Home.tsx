@@ -1,3 +1,4 @@
+import PortfolioIconImage from "@/public/assets/icons/image.png";
 import Image from "next/image";
 
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
     <section id="home" className="py-10">
       <div className="text-center">
         <Image
-          src="/src/public/assets/icons/image.png"
+          src={PortfolioIconImage}
           alt="Saulo Costa"
           width={400}
           height={400}

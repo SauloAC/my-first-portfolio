@@ -1,3 +1,4 @@
+import ProfileImage from "@/public/assets/images/me.jpeg";
 import Image from "next/image";
 
 export default function AboutMe() {
@@ -6,7 +7,7 @@ export default function AboutMe() {
       <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
       <div className="text-center mb-8">
         <Image
-          src="/src/public/assets/images/me.jpeg"
+          src={ProfileImage}
           alt="Saulo Costa - Full Stack Developer"
           width={400}
           height={400}

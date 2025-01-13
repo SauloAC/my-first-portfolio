@@ -1,26 +1,31 @@
+import CSSIcon from "@/public/assets/icons/css.png";
+import HTMLIcon from "@/public/assets/icons/html.png";
+import JavaScriptIcon from "@/public/assets/icons/js.png";
+import NodeIcon from "@/public/assets/icons/node.png";
+import ReactIcon from "@/public/assets/icons/react.png";
 import Image from "next/image";
 
 export default function Skills() {
   const skills = [
     {
       name: "JavaScript",
-      src: "/src/public/assets/icons/js.png",
+      src: JavaScriptIcon,
     },
     {
       name: "HTML5",
-      src: "/src/public/assets/icons/html.png",
+      src: HTMLIcon,
     },
     {
       name: "CSS3",
-      src: "/src/public/assets/icons/css.png",
+      src: CSSIcon,
     },
     {
       name: "React",
-      src: "/src/public/assets/icons/react.png",
+      src: ReactIcon,
     },
     {
       name: "Node.js",
-      src: "/src/public/assets/icons/node.png",
+      src: NodeIcon,
     },
   ];
 

@@ -1,3 +1,4 @@
+import WorkInProgressImage from "@/public/assets/images/workInProgress.gif";
 import Image from "next/image";
 
 export default function Projects() {
@@ -6,7 +7,7 @@ export default function Projects() {
       <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
       <div className="text-center">
         <Image
-          src="/src/public/assets/images/workInProgress.gif"
+          src={WorkInProgressImage}
           alt="Work in Progress"
           width={300}
           height={300}
