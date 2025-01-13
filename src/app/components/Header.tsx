@@ -1,3 +1,4 @@
+import PortfolioIconImage from "@/public/assets/icons/image.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,7 +7,7 @@ export default function Header() {
     <header className="lg:fixed lg:w-1/3 lg:h-screen p-4 border border-primary rounded-lg text-center">
       <div>
         <Image
-          src="/src/public/assets/icons/image.png"
+          src={PortfolioIconImage}
           alt="Portfolio Logo"
           width={100}
           height={100}
