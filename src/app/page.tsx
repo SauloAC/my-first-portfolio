@@ -4,11 +4,11 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import WorkExperiences from "./components/WorkExperience";
+import WorkExperiences from "./components/WorkExperiences";
 
 export default function Page() {
   return (
-    <div className="container mx-auto">
+    <div className="container">
       <Header />
       <div className="lg:ml-[33%] p-4">
         <Home />
