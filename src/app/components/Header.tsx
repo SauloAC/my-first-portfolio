@@ -13,18 +13,9 @@ export default function Header() {
   return (
     <header className="lg:fixed lg:w-1/5 lg:h-screen p-4 border border-primary rounded-lg text-center">
       <div className="flex justify-between items-center lg:block">
-        <div className="text-center" onClick={toggleMenu}>
-          {isMenuOpen ? (
-            <Image
-              src={PortfolioIconImage}
-              alt="Portfolio Logo"
-              width={100}
-              height={100}
-              className="mx-auto mt-10"
-              priority
-            />
-          ) : (
-            <>
+        <div className="lg:text-center">
+          <div className="lg:grid flex items-center">
+            <div>
               <Image
                 src={PortfolioIconImage}
                 alt="Portfolio Logo"
@@ -33,11 +24,13 @@ export default function Header() {
                 className="mx-auto mt-10"
                 priority
               />
+            </div>
+            <div>
               <h3 className="mt-4">Hi, I&apos;m</h3>
               <h1 className="text-3xl font-bold">Saulo</h1>
               <h2 className="text-xl">Full-Stack Developer</h2>
-            </>
-          )}
+            </div>
+          </div>
         </div>
         <button
           className="lg:hidden text-primary"
