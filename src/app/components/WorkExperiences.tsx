@@ -1,43 +1,26 @@
 export default function WorkExperiences() {
   const experiences = [
     {
-      title: "Front-End Web Developer",
-      company: "Company Name, Location",
-      date: "Date Range",
+      title: "Static Website",
+      company: "UpImigration",
+      date: "Freelance",
       responsibilities: [
-        "Developed responsive and interactive user interfaces using HTML5, CSS3, and JavaScript.",
-        "Collaborated with designers to translate wireframes and mockups into functional web pages.",
-        "Implemented best practices in front-end development to optimize performance and user experience.",
-        "Worked closely with back-end developers to integrate front-end components with server-side logic.",
+        "Redeveloped a static website for an immigration consultation company using Next.js, TypeScript, Tailwind CSS, and shadcn, improving user experience by 50% through a restructured UI/UX. Implemented localization for Spanish and Portuguese using next-intl, enhancing accessibility and expanding the website's reach to a broader audience.",
       ],
     },
     {
-      title: "Full-Stack Web Developer Intern",
-      company: "Company Name, Location",
-      date: "Date Range",
+      title: "Dynamic Dashboard",
+      company: "UpImigration",
+      date: "Freelance",
       responsibilities: [
-        "Assisted in the development of RESTful APIs using Node.js and Express.js for server-side functionality.",
-        "Designed and implemented database schemas using MongoDB and performed CRUD operations.",
-        "Contributed to the creation of dynamic web applications using React.js for front-end development.",
-        "Participated in code reviews and collaborated with senior developers to troubleshoot and debug issues.",
-      ],
-    },
-    {
-      title: "Freelance Web Developer",
-      company: "Self-Employed",
-      date: "Date Range",
-      responsibilities: [
-        "Worked with clients to understand project requirements and develop custom solutions tailored to their needs.",
-        "Designed and developed responsive websites optimized for performance and SEO.",
-        "Managed project timelines, budgets, and client communication to ensure satisfaction and timely delivery.",
-        "Implemented security measures to protect websites from common vulnerabilities and threats.",
+        " Developed a web application for an immigration consultation company using Next.js, TypeScript, and Clerk, simplifying the immigration process for both applicants and consultants. Collaborated with UI/UX designers to define and clarify functional and technical requirements for a web application, ensuring alignment with business objectives and user needs. Implemented a modern frontend using Next.js, TypeScript, and ShadCN, creating a customizable and accessible UI library while leading discussions on common components to enhance ease of use and improve team development efficiency. Designed and implemented RESTful APIs and a NoSQL (MongoDB) database for an immigration consultation company using Next.js and TypeScript, focusing on flexible table and API designs to ensure future scalability and ease of feature expansion. ",
       ],
     },
   ];
 
   return (
     <section id="workExperiences" className="py-10">
-      <h2 className="text-3xl font-bold text-center mb-8">Work Experiences</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">Experiences</h2>
       <div className="space-y-8">
         {experiences.map((exp, index) => (
           <div key={index} className="border border-primary rounded-lg p-6">
