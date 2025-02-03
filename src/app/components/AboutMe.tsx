@@ -17,33 +17,32 @@ export default function AboutMe() {
       </div>
       <h3 className="text-lg text-justify space-y-4">
         <p>
-          Welcome to my portfolio! I&apos;m thrilled to share my journey with
+          Welcome to my portfolio! I&apos;m excited to share my journey with
           you.
         </p>
         <p>
-          Originally coming from a background in customer service, I&apos;ve
-          transitioned into the dynamic world of web development, where my
-          passion for crafting exceptional user experiences has truly
-          flourished. Armed with JavaScript, HTML, and CSS, I&apos;m dedicated
-          to building websites that not only look stunning but also function
-          seamlessly.
+          With a background in customer service and a passion for technology,
+          I&apos;ve transitioned into the dynamic world of web development. My
+          journey has been fueled by a commitment to crafting exceptional user
+          experiences through clean, functional, and visually appealing
+          websites.
         </p>
         <p>
-          Every project is an opportunity for me to push boundaries and refine
-          my skills. From conceptualization to execution, I&apos;m committed to
-          delivering results that exceed expectations. I thrive on challenges
-          and constantly seek out new opportunities to grow and innovate.
+          Armed with JavaScript, TypeScript, Next.js, Tailwind CSS, and MongoDB,
+          I love turning ideas into interactive web applications. From
+          developing weather apps with real-time API integration to building
+          dynamic dashboards for businesses, every project pushes me to refine
+          my skills and tackle new challenges.
         </p>
         <p>
-          Beyond the code, I bring a unique perspective shaped by my customer
-          service experience. Understanding the importance of user-centric
-          design, I strive to create digital solutions that resonate with and
-          delight users.
+          What sets me apart is the combination of technical expertise and a
+          user-centric mindset shaped by my customer service experience. I
+          understand the importance of intuitive design and strive to create
+          digital solutions that resonate with and delight users.
         </p>
         <p>
-          I invite you to explore my portfolio and discover the projects that
-          showcase my expertise and passion for web development. Let&apos;s
-          collaborate to bring your digital vision to life!
+          Explore my portfolio to see how I blend creativity with code.
+          Let&apos;s collaborate to bring your digital vision to life!
         </p>
       </h3>
     </section>

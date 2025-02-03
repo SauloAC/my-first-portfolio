@@ -3,6 +3,7 @@ import PortfolioIconImage from "@/public/assets/icons/image.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -92,6 +93,24 @@ export default function Header() {
           </Link>
         ))}
       </nav>
+      <div className="mt-4 flex justify-center space-x-4">
+        <a
+          href="https://www.linkedin.com/in/saulo-a-costa/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:text-primary-dark transition-colors"
+        >
+          <FaLinkedin size={24} />
+        </a>
+        <a
+          href="https://github.com/SauloAC"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:text-primary-dark transition-colors"
+        >
+          <FaGithub size={24} />
+        </a>
+      </div>
     </header>
   );
 }

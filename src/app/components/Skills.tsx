@@ -1,8 +1,15 @@
 import CSSIcon from "@/public/assets/icons/css.png";
 import HTMLIcon from "@/public/assets/icons/html.png";
+import jQueryIcon from "@/public/assets/icons/jquery.png";
 import JavaScriptIcon from "@/public/assets/icons/js.png";
+import MongoDBIcon from "@/public/assets/icons/mongoDB.png";
+import NextIcon from "@/public/assets/icons/nextJS.png";
 import NodeIcon from "@/public/assets/icons/node.png";
+import PostgreSQLIcon from "@/public/assets/icons/postgreSQL.png";
 import ReactIcon from "@/public/assets/icons/react.png";
+import SassIcon from "@/public/assets/icons/sass.png";
+import SocketIOIcon from "@/public/assets/icons/socketIO.png";
+import TailwindIcon from "@/public/assets/icons/tailwind.png";
 import Image from "next/image";
 
 export default function Skills() {
@@ -20,12 +27,40 @@ export default function Skills() {
       src: CSSIcon,
     },
     {
-      name: "React",
-      src: ReactIcon,
+      name: "SASS",
+      src: SassIcon,
+    },
+    {
+      name: "Tailwind",
+      src: TailwindIcon,
+    },
+    {
+      name: "jQuery",
+      src: jQueryIcon,
     },
     {
       name: "Node.js",
       src: NodeIcon,
+    },
+    {
+      name: "React",
+      src: ReactIcon,
+    },
+    {
+      name: "NextJS",
+      src: NextIcon,
+    },
+    {
+      name: "PostgreSQL",
+      src: PostgreSQLIcon,
+    },
+    {
+      name: "MongoDB",
+      src: MongoDBIcon,
+    },
+    {
+      name: "Socket.IO",
+      src: SocketIOIcon,
     },
   ];
 
