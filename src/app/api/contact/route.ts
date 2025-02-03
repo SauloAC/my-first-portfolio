@@ -2,20 +2,37 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
-  const { name, lastName, email, message } = await req.json();
-
-  // Create a transporter using SMTP
-  const transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_SERVER,
-    port: 465,
-    secure: true, // use SSL
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
-    },
-  });
-
   try {
+    const { name, lastName, email, message } = await req.json();
+
+    // Log the received data
+    console.log("Received form data:", { name, lastName, email, message });
+
+    // Check if all required environment variables are set
+    if (
+      !process.env.EMAIL_SERVER ||
+      !process.env.EMAIL_USER ||
+      !process.env.EMAIL_PASS ||
+      !process.env.RECIPIENT_EMAIL
+    ) {
+      console.error("Missing required environment variables");
+      return NextResponse.json(
+        { error: "Server configuration error" },
+        { status: 500 }
+      );
+    }
+
+    // Create a transporter using SMTP
+    const transporter = nodemailer.createTransport({
+      host: process.env.EMAIL_SERVER,
+      port: 465,
+      secure: true, // use SSL
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+      },
+    });
+
     // Send mail with defined transport object
     const info = await transporter.sendMail({
       from: `"Portfolio Contact Form" <${process.env.EMAIL_USER}>`,
@@ -36,9 +53,9 @@ export async function POST(req: Request) {
       { status: 200 }
     );
   } catch (error) {
-    console.error("Error sending email:", error);
+    console.error("Error in API route:", error);
     return NextResponse.json(
-      { error: "Failed to send email" },
+      { error: "Internal server error" },
       { status: 500 }
     );
   }
