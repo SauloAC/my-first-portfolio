@@ -10,6 +10,7 @@ import ReactIcon from "@/public/assets/icons/react.png";
 import SassIcon from "@/public/assets/icons/sass.png";
 import SocketIOIcon from "@/public/assets/icons/socketIO.png";
 import TailwindIcon from "@/public/assets/icons/tailwind.png";
+import TypeScriptIcom from "@/public/assets/icons/typescript.png";
 import Image from "next/image";
 
 export default function Skills() {
@@ -17,6 +18,10 @@ export default function Skills() {
     {
       name: "JavaScript",
       src: JavaScriptIcon,
+    },
+    {
+      name: "TypeScript",
+      src: TypeScriptIcom,
     },
     {
       name: "HTML5",
