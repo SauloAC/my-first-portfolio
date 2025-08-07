@@ -1,6 +1,7 @@
 export default function WorkExperiences() {
   const experiences = [
     {
+      demoAdress: "https://migration-crew-website.vercel.app/",
       title: "Static Website",
       company: "UpImigration",
       date: "Freelance",
@@ -9,6 +10,7 @@ export default function WorkExperiences() {
       ],
     },
     {
+      demoAdress: "https://immigration-dashboard.vercel.app/sign-in",
       title: "Dynamic Dashboard",
       company: "UpImigration",
       date: "Freelance",
@@ -24,6 +26,16 @@ export default function WorkExperiences() {
       <div className="space-y-8">
         {experiences.map((exp, index) => (
           <div key={index} className="border border-primary rounded-lg p-6">
+            <div className="mb-4">
+              <a
+                href={exp.demoAdress}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline text-lg font-medium"
+              >
+                View Demo →
+              </a>
+            </div>
             <h3 className="text-xl font-bold mb-2">{exp.title}</h3>
             <p className="italic mb-2">{exp.company}</p>
             <p className="mb-4">{exp.date}</p>
