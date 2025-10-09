@@ -1,4 +1,5 @@
 import Dashboard from "@/public/assets/images/dashboard.jpeg";
+import KawaiiWeather from "@/public/assets/images/kawaii-weather-app.jpg";
 import StaticWebSite from "@/public/assets/images/StaticWebPage.jpeg";
 import { Calendar, ExternalLink, Github } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
@@ -196,6 +197,21 @@ export default function Projects() {
       technologies: ["Next.js", "TypeScript", "Clerk", "MongoDB", "shadcn/ui"],
       category: "Full Stack",
       date: "2024",
+      status: "completed",
+    },
+    {
+      id: 3,
+      title: "Kawaii Weather App",
+      description:
+        "Cute and interactive weather application with real-time forecasts",
+      longDescription:
+        "Built a delightful weather application featuring kawaii-styled UI elements, real-time weather data integration, and interactive animations. Provides accurate weather forecasts with a fun, user-friendly interface that makes checking the weather enjoyable.",
+      image: KawaiiWeather,
+      demoUrl: "https://kawaii-weather-app.vercel.app/",
+      githubUrl: "https://github.com/SauloAC/kawaii-weather-app",
+      technologies: ["Weather API", "CSS", "SASS", "JavaScript", "Vercel"],
+      category: "Web Development",
+      date: "2025",
       status: "completed",
     },
     // {
